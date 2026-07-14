@@ -1,6 +1,4 @@
-const person = {
-    name: 'John',
-    age: 35,
-}
-const person2 = person.name
+const person = {name:"Husnain"}
+console.log(person)
+person.name = "Zeeshan"
 console.log(person)
