@@ -1,3 +1,6 @@
-a = 7
-console.log(b)
-var b;
+const person = {
+    name: 'John',
+    age: 35,
+}
+const person2 = person.name
+console.log(person)
