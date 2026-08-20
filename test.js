@@ -1,4 +1,5 @@
-const person = {name:"Husnain"}
-console.log(person)
-person.name = "Zeeshan"
-console.log(person)
+const api = "https://api.restful-api.dev/objects/7"
+const data = await fetch(api)
+.then(res => res.json())
+console.log(data)
+
